@@ -30,9 +30,8 @@ namespace NewCandidatePortal.Controllers
             }
             catch(Exception ex)
             {
-                ViewBag.Error = ex.ToString(); ;            
-                return View("error");
-                throw;
+                ViewBag.Error = ex.ToString();
+                return View("error");                
             }
             
 

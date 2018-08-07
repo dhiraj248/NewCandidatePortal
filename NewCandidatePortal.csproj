@@ -130,7 +130,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Global.asax" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Views\Shared\success.cshtml" />
     <Content Include="Views\Shared\error.cshtml" />
   </ItemGroup>
